@@ -1,16 +1,13 @@
 package com.example.Baesh.Service;
 
-import com.example.Baesh.Interface.OpenAiApi;
-import com.example.Baesh.Interface.UserRepository;
-import okhttp3.OkHttpClient;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+
 
 import java.util.Map;
 
